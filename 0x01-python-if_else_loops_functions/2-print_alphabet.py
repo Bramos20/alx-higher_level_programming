@@ -1,5 +1,3 @@
 #!/usr/bin/python3
-output =''
 for i in range(ord("a"), ord("z") + 1):
-    output += f"{chr(i)}"
-print(output, end='')
+    print(f"{chr(i)}", end='')
